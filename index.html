@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>ROCK PAPER SESSIOR GAME</title>
+</head>
+<body>
+    <button id="rock" class="button" onclick="playGame('rock')"><img src="rock.jpg" alt="rock"></button>
+    <button id="paper" class="button" onclick="playGame('paper')"><img src="paper.jpg" alt="paper"></button>
+    <button id="sessior" class="button" onclick="playGame('sessior')"><img src="sesior.jpg" alt="sessior"></button>
+    <button id="reset" class="button" onclick="resetGame()">Reset</button>
+
+
+    <div id="display"></div>
+    <div id="win-loss"></div>
+    <div id="display-score"></div>
+
+
+    <script src="rps.js"></script>
+</body>
+</html>
